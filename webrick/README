@@ -1,0 +1,4 @@
+bundle exec rackup -s webrick -p 4567 -E production
+
+ab -c 70 -n 5000 http://127.0.0.1:4567/
+ab -c 10 -n 10 http://127.0.0.1:4567/sleep

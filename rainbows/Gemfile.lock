@@ -16,6 +16,7 @@ GEM
       rack
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
