@@ -1,6 +1,0 @@
-Thin is stable, but does not provide concurrency:
-
-bundle exec thin start -e production -p 4567
-
-ab -c 70 -n 5000 http://127.0.0.1:4567/
-ab -c 10 -n 10 http://127.0.0.1:4567/sleep
