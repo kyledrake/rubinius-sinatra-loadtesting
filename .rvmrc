@@ -1,0 +1,2 @@
+export RBXOPT="-Xrbc.db"
+rvm use --create rbx-2.0.0pre@sinatra-loadtesting

@@ -1,6 +1,0 @@
-bundle exec rainbows -E production -p 4567 -c rainbows_config_threadspawn.rb
-bundle exec rainbows -E production -p 4567 -c rainbows_config_threadpool.rb
-
-ab -c 70 -n 500 http://127.0.0.1:4567/
-
-ab -c 10 -n 10 http://127.0.0.1:4567/sleep
